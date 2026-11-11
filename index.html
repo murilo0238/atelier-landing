@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>ATELIER — Arquitetura &amp; Interiores</title>
+  <meta name="description" content="ATELIER é um projeto conceito de arquitetura e interiores: espaços autorais, atemporais e pensados para quem os habita. Design e desenvolvimento por Garra Studios.">
+  <meta name="theme-color" content="#0D0D0C">
+  <meta name="robots" content="noindex, follow">
+  <link rel="canonical" href="https://atelier.garrastudios.online/">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:site_name" content="ATELIER">
+  <meta property="og:url" content="https://atelier.garrastudios.online/">
+  <meta property="og:title" content="ATELIER — Arquitetura que transcende o tempo">
+  <meta property="og:description" content="Projeto conceito de arquitetura e interiores. Design e desenvolvimento por Garra Studios.">
+  <meta property="og:image" content="https://atelier.garrastudios.online/assets/img/og.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="preload" href="assets/fonts/anton-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/manrope-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" as="image" href="assets/img/hero-1440.webp" imagesrcset="assets/img/hero-mobile.webp 900w, assets/img/hero-1440.webp 1440w, assets/img/hero-2400.webp 2400w" imagesizes="100vw" fetchpriority="high">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script>document.documentElement.classList.add("js")</script>
+  <script src="assets/js/main.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#conteudo">Pular para o conteúdo</a>
+
+<!-- Barra fixa: aparece ao rolar -->
+<header class="bar" data-bar>
+  <a class="bar-logo" href="#topo" aria-label="ATELIER — voltar ao topo">ATELIER</a>
+  <nav class="bar-nav" aria-label="Seções">
+    <a href="#abordagem">Abordagem</a>
+    <a href="#projetos">Projetos</a>
+    <a href="#servicos">Serviços</a>
+    <a href="#processo">Processo</a>
+    <a href="#contato">Contato</a>
+  </nav>
+  <a class="btn btn-dark btn-sm bar-cta" href="#contato">Inicie seu projeto</a>
+  <button class="menu-btn" type="button" aria-expanded="false" aria-controls="menu" data-menu-open>
+    <span class="sr-only">Abrir menu</span><span class="menu-lines" aria-hidden="true"></span>
+  </button>
+</header>
+
+<!-- Menu de tela cheia (mobile) -->
+<div class="menu" id="menu" role="dialog" aria-modal="true" aria-label="Menu" hidden data-menu>
+  <div class="menu-top">
+    <span class="menu-logo">ATELIER</span>
+    <button class="menu-close" type="button" data-menu-close><span class="sr-only">Fechar menu</span>
+      <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
+  </div>
+  <nav class="menu-nav" aria-label="Menu">
+    <a href="#abordagem"><span>01</span>Abordagem</a>
+    <a href="#projetos"><span>02</span>Projetos</a>
+    <a href="#servicos"><span>03</span>Serviços</a>
+    <a href="#processo"><span>04</span>Processo</a>
+    <a href="#contato"><span>05</span>Contato</a>
+  </nav>
+  <p class="menu-foot">Forma. Essência. <em>Permanência.</em></p>
+</div>
+
+<main id="conteudo">
+
+<!-- ================= HERO ================= -->
+<section id="topo" class="hero" aria-label="Abertura">
+  <div class="hero-media" data-parallax>
+    <picture>
+      <source media="(max-width: 640px) and (orientation: portrait)" srcset="assets/img/hero-mobile.webp">
+      <img src="assets/img/hero-1440.webp" srcset="assets/img/hero-1440.webp 1440w, assets/img/hero-2400.webp 2400w" sizes="100vw" width="2400" height="1600" alt="Residência contemporânea ao entardecer, com volumes em madeira escura, grandes panos de vidro iluminados e um gramado sob uma árvore centenária" fetchpriority="high">
+    </picture>
+  </div>
+  <div class="hero-shade" aria-hidden="true"></div>
+
+  <div class="hero-word" aria-hidden="true">
+    <span style="--i:0">A</span><span style="--i:1">T</span><span style="--i:2">E</span><span style="--i:3">L</span><span style="--i:4">I</span><span style="--i:5">E</span><span style="--i:6">R</span>
+  </div>
+
+  <nav class="hero-nav" aria-label="Principal">
+    <div class="pill">
+      <a class="pill-link" href="#projetos">Projetos</a>
+      <a class="pill-link" href="#abordagem">Abordagem</a>
+      <a class="pill-link" href="#contato">Contato</a>
+    </div>
+    <a class="pill pill-cta" href="#contato"><span class="pill-cta-label">Inicie seu projeto</span>
+      <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>
+    </a>
+  </nav>
+
+  <div class="hero-copy">
+    <div class="hero-text">
+      <h1 class="hero-title"><span class="line"><span>Arquitetura que</span></span> <span class="line"><span>transcende <em>o tempo.</em></span></span></h1>
+      <p class="hero-lead">Espaços concebidos para refletir sua essência, respeitar seu modo de viver e permanecer relevantes além das tendências.</p>
+      <div class="hero-actions">
+        <a class="btn btn-light" href="#projetos">Conheça nossos projetos</a>
+        <a class="btn btn-ghost" href="#contato">Inicie seu projeto</a>
+      </div>
+    </div>
+    <div class="hero-meta"><span class="rule"></span>Arquitetura &amp; Interiores</div>
+  </div>
+
+  <a class="scroll-cue" href="#principios" aria-label="Rolar para o conteúdo"><span></span></a>
+</section>
+
+<!-- ================= PRINCÍPIOS ================= -->
+<section id="principios" class="principles" aria-label="Princípios">
+  <div class="blueprint">
+    <svg class="draw" aria-hidden="true" viewBox="0 0 420 300" fill="none" stroke="#EDEBE6" stroke-width="1.2">
+      <rect x="20" y="20" width="380" height="260" pathLength="1"/>
+      <rect x="26" y="26" width="368" height="248" stroke-width="0.5" pathLength="1"/>
+      <line x1="150" y1="20" x2="150" y2="180" pathLength="1"/>
+      <line x1="20" y1="120" x2="150" y2="120" pathLength="1"/>
+      <line x1="150" y1="180" x2="400" y2="180" pathLength="1"/>
+      <line x1="280" y1="20" x2="280" y2="180" pathLength="1"/>
+      <line x1="280" y1="100" x2="400" y2="100" pathLength="1"/>
+      <line x1="90" y1="180" x2="90" y2="280" pathLength="1"/>
+      <line x1="20" y1="180" x2="150" y2="180" pathLength="1"/>
+      <path d="M150 60 a24 24 0 0 1 24 24" stroke-width="0.7" pathLength="1"/>
+      <path d="M280 130 a20 20 0 0 0 -20 20" stroke-width="0.7" pathLength="1"/>
+      <path d="M60 120 a22 22 0 0 0 22 22" stroke-width="0.7" pathLength="1"/>
+      <rect x="170" y="200" width="210" height="60" stroke-width="0.9" pathLength="1"/>
+      <g stroke-width="0.4"><line x1="175" y1="210" x2="375" y2="210" pathLength="1"/><line x1="175" y1="220" x2="375" y2="220" pathLength="1"/><line x1="175" y1="230" x2="375" y2="230" pathLength="1"/><line x1="175" y1="240" x2="375" y2="240" pathLength="1"/><line x1="175" y1="250" x2="375" y2="250" pathLength="1"/></g>
+      <g stroke-width="0.6"><line x1="100" y1="190" x2="140" y2="190" pathLength="1"/><line x1="100" y1="200" x2="140" y2="200" pathLength="1"/><line x1="100" y1="210" x2="140" y2="210" pathLength="1"/><line x1="100" y1="220" x2="140" y2="220" pathLength="1"/><line x1="100" y1="230" x2="140" y2="230" pathLength="1"/><line x1="100" y1="240" x2="140" y2="240" pathLength="1"/></g>
+      <rect x="180" y="40" width="80" height="50" stroke-width="0.7" pathLength="1"/>
+      <circle cx="220" cy="130" r="18" stroke-width="0.7" pathLength="1"/>
+      <rect x="300" y="40" width="80" height="40" stroke-width="0.7" pathLength="1"/>
+      <rect x="300" y="120" width="40" height="40" stroke-width="0.7" pathLength="1"/>
+      <rect x="40" y="40" width="90" height="60" stroke-width="0.7" pathLength="1"/>
+      <line x1="40" y1="40" x2="130" y2="100" stroke-width="0.35" pathLength="1"/>
+      <line x1="130" y1="40" x2="40" y2="100" stroke-width="0.35" pathLength="1"/>
+      <g stroke-width="0.45"><line x1="20" y1="8" x2="400" y2="8" pathLength="1"/><line x1="20" y1="4" x2="20" y2="12" pathLength="1"/><line x1="150" y1="4" x2="150" y2="12" pathLength="1"/><line x1="280" y1="4" x2="280" y2="12" pathLength="1"/><line x1="400" y1="4" x2="400" y2="12" pathLength="1"/><line x1="410" y1="20" x2="410" y2="280" pathLength="1"/><line x1="406" y1="20" x2="414" y2="20" pathLength="1"/><line x1="406" y1="180" x2="414" y2="180" pathLength="1"/><line x1="406" y1="280" x2="414" y2="280" pathLength="1"/></g>
+    </svg>
+    <span class="blueprint-tag">Planta conceitual · esc. 1:100</span>
+  </div>
+
+  <div class="principles-body">
+    <ul class="principles-list">
+      <li class="reveal" style="--d:0">
+        <span class="kicker"><svg aria-hidden="true" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18M5 21V9l7-5 7 5v12"/><path d="M9 21v-6h6v6"/></svg>Princípio 01</span>
+        <strong>Forma</strong>
+      </li>
+      <li class="reveal" style="--d:1">
+        <span class="kicker"><svg aria-hidden="true" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><circle cx="12" cy="12" r="8"/></svg>Princípio 02</span>
+        <strong>Essência</strong>
+      </li>
+      <li class="reveal" style="--d:2">
+        <span class="kicker"><svg aria-hidden="true" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>Princípio 03</span>
+        <strong>Permanência</strong>
+      </li>
+    </ul>
+
+    <!-- Seletor de projetos em destaque (funcional) -->
+    <div class="picker" data-picker>
+      <div class="picker-btns">
+        <button type="button" class="round" data-prev aria-label="Projeto anterior">
+          <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M15 6l-6 6 6 6"/></svg>
+        </button>
+        <button type="button" class="round round-dark" data-next aria-label="Próximo projeto">
+          <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg>
+        </button>
+      </div>
+      <a class="picker-current" href="#projeto-horizonte" data-picker-link aria-live="polite">
+        <span class="picker-text">
+          <span class="picker-name" data-picker-name>Casa Horizonte</span>
+          <span class="picker-sub"><span data-picker-index>01</span> / 03 · Estudo conceitual</span>
+        </span>
+        <span class="picker-thumb"><img src="assets/img/thumb-horizonte.webp" alt="" width="60" height="60" data-picker-img></span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= MANIFESTO ================= -->
+<section id="abordagem" class="wrap split manifesto" aria-labelledby="manifesto-titulo">
+  <div class="split-a">
+    <p class="eyebrow reveal"><span>(01)</span><span class="rule"></span><span>Manifesto</span></p>
+    <h2 id="manifesto-titulo" class="display reveal-lines">A essência de cada espaço está em <em>quem o habita.</em></h2>
+  </div>
+  <div class="split-b prose">
+    <p class="reveal">Acreditamos que a arquitetura vai além da estética. Ela traduz histórias, revela personalidades e transforma a maneira como vivemos.</p>
+    <p class="reveal">Na ATELIER, cada projeto nasce de uma compreensão profunda sobre quem você é, como vive e o que considera essencial.</p>
+    <p class="reveal prose-strong">Não seguimos fórmulas. Criamos espaços com identidade, propósito e permanência.</p>
+  </div>
+</section>
+
+<!-- Faixa em movimento -->
+<div class="marquee" aria-hidden="true">
+  <div class="marquee-track">
+    <span>Forma</span><i>✦</i><span><em>Essência</em></span><i>✦</i><span>Permanência</span><i>✦</i><span><em>Luz</em></span><i>✦</i><span>Matéria</span><i>✦</i><span><em>Natureza</em></span><i>✦</i>
+    <span>Forma</span><i>✦</i><span><em>Essência</em></span><i>✦</i><span>Permanência</span><i>✦</i><span><em>Luz</em></span><i>✦</i><span>Matéria</span><i>✦</i><span><em>Natureza</em></span><i>✦</i>
+  </div>
+</div>
+
+<!-- ================= PROJETOS ================= -->
+<section id="projetos" class="dark projects" aria-labelledby="projetos-titulo">
+  <div class="wrap stack">
+    <div class="section-head">
+      <div>
+        <p class="eyebrow eyebrow-warm reveal"><span>(02)</span><span class="rule"></span><span>Projetos</span></p>
+        <h2 id="projetos-titulo" class="display reveal-lines">Projetos que expressam <em>diferentes formas de viver.</em></h2>
+      </div>
+      <p class="section-note reveal">Uma seleção de estudos arquitetônicos que exploram a relação entre espaço, matéria, luz e natureza.</p>
+    </div>
+
+    <div class="proj-grid">
+      <article id="projeto-horizonte" class="proj proj-wide">
+        <div class="proj-media unveil">
+          <img src="assets/img/horizonte-1200.webp" srcset="assets/img/horizonte-700.webp 700w, assets/img/horizonte-1200.webp 1200w" sizes="(min-width: 1320px) 1224px, 94vw" width="1200" height="800" loading="lazy" decoding="async" alt="Pavilhão térreo com laje plana, fachada inteira em vidro aberta para o deck e uma piscina em primeiro plano" style="object-position: 50% 55%">
+          <span class="tag">01 · Estudo conceitual</span>
+        </div>
+        <div class="proj-info proj-info-wide">
+          <div>
+            <h3 class="proj-title reveal">Casa Horizonte</h3>
+            <p class="proj-quote reveal">A arquitetura em diálogo com a paisagem.</p>
+          </div>
+          <p class="proj-desc reveal">Linhas contemporâneas, grandes aberturas e uma integração natural entre ambientes internos e externos.</p>
+        </div>
+      </article>
+
+      <article id="projeto-origem" class="proj">
+        <div class="proj-media proj-tall unveil">
+          <img src="assets/img/origem-1200.webp" srcset="assets/img/origem-700.webp 700w, assets/img/origem-1200.webp 1200w" sizes="(min-width: 900px) 46vw, 94vw" width="1200" height="800" loading="lazy" decoding="async" alt="Sala de estar com parede de pedra, painel de madeira natural e piso de carvalho, aberta para a varanda e o jardim" style="object-position: 38% 50%">
+          <span class="tag">02 · Estudo conceitual</span>
+        </div>
+        <div class="proj-info">
+          <h3 class="proj-title proj-title-sm reveal">Residência Origem</h3>
+          <p class="proj-quote reveal">A beleza de viver o essencial.</p>
+          <p class="proj-desc reveal">Materiais naturais, volumes equilibrados e uma atmosfera de tranquilidade definem uma residência onde cada detalhe tem seu propósito.</p>
+        </div>
+      </article>
+
+      <article id="projeto-patio" class="proj proj-offset">
+        <div class="proj-media proj-tall unveil">
+          <img src="assets/img/patio-1200.webp" srcset="assets/img/patio-700.webp 700w, assets/img/patio-1200.webp 1200w" sizes="(min-width: 900px) 46vw, 94vw" width="1200" height="800" loading="lazy" decoding="async" alt="Estar com grandes portas de vidro voltadas para um pátio interno reservado, cercado por muros de madeira e uma piscina" style="object-position: 66% 50%">
+          <span class="tag">03 · Estudo conceitual</span>
+        </div>
+        <div class="proj-info">
+          <h3 class="proj-title proj-title-sm reveal">Casa Pátio</h3>
+          <p class="proj-quote reveal">Um refúgio voltado para dentro.</p>
+          <p class="proj-desc reveal">Organizada em torno de um jardim central, a residência encontra na luz natural, na privacidade e na conexão com a natureza sua identidade.</p>
+        </div>
+      </article>
+    </div>
+
+    <div class="reveal">
+      <a class="btn btn-light btn-arrow" href="#contato">Quero um projeto assim
+        <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= SERVIÇOS ================= -->
+<section id="servicos" class="wrap stack section-pad" aria-labelledby="servicos-titulo">
+  <div class="section-head-simple">
+    <p class="eyebrow reveal"><span>(03)</span><span class="rule"></span><span>Serviços</span></p>
+    <h2 id="servicos-titulo" class="display reveal-lines">O que <em>fazemos</em></h2>
+  </div>
+  <div class="services">
+    <article class="service reveal" style="--d:0">
+      <span class="service-letter">a.</span>
+      <h3>Arquitetura Residencial</h3>
+      <p>Residências exclusivas, concebidas a partir do estilo de vida, das necessidades e das aspirações de cada cliente.</p>
+    </article>
+    <article class="service reveal" style="--d:1">
+      <span class="service-letter">b.</span>
+      <h3>Design de Interiores</h3>
+      <p>Ambientes que equilibram estética, conforto e funcionalidade, com atenção à composição, aos materiais e aos detalhes.</p>
+    </article>
+    <article class="service reveal" style="--d:2">
+      <span class="service-letter">c.</span>
+      <h3>Arquitetura Comercial</h3>
+      <p>Espaços que traduzem a identidade de uma marca por meio de experiências arquitetônicas coerentes e memoráveis.</p>
+    </article>
+    <article class="service reveal" style="--d:3">
+      <span class="service-letter">d.</span>
+      <h3>Consultoria e Curadoria</h3>
+      <p>Orientação na escolha de materiais, acabamentos, iluminação e mobiliário para criar ambientes harmoniosos e personalizados.</p>
+    </article>
+  </div>
+</section>
+
+<!-- ================= DETALHES ================= -->
+<section class="sand section-pad" aria-labelledby="detalhes-titulo">
+  <div class="wrap split">
+    <h2 id="detalhes-titulo" class="split-title display display-xl reveal-lines">O extraordinário está <em>nos detalhes.</em></h2>
+    <div class="split-b prose">
+      <p class="reveal">Uma proporção cuidadosamente estudada. A textura de um material natural. A luz que atravessa um ambiente ao longo do dia.</p>
+      <p class="reveal">São escolhas que transformam espaços em experiências.</p>
+      <p class="reveal">Nossa abordagem une sensibilidade estética, planejamento e atenção aos detalhes para desenvolver uma arquitetura que não precisa de excessos para ser marcante.</p>
+      <p class="reveal signature">Autoral por natureza. <em>Atemporal por escolha.</em></p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PROCESSO ================= -->
+<section id="processo" class="wrap stack section-pad" aria-labelledby="processo-titulo">
+  <div class="section-head-simple">
+    <p class="eyebrow reveal"><span>(04)</span><span class="rule"></span><span>Processo</span></p>
+    <h2 id="processo-titulo" class="display reveal-lines">Nossa maneira <em>de criar</em></h2>
+  </div>
+  <ol class="steps" data-steps>
+    <li class="step reveal" style="--d:0">
+      <span class="step-num">01</span>
+      <h3>Compreender</h3>
+      <p>Antes de desenhar, ouvimos. Conhecemos suas referências, necessidades, expectativas e a maneira como você deseja viver.</p>
+    </li>
+    <li class="step reveal" style="--d:1">
+      <span class="step-num">02</span>
+      <h3>Conceber</h3>
+      <p>Transformamos essas informações em um conceito arquitetônico que orienta as decisões estéticas e funcionais do projeto.</p>
+    </li>
+    <li class="step reveal" style="--d:2">
+      <span class="step-num">03</span>
+      <h3>Desenvolver</h3>
+      <p>Exploramos possibilidades, definimos materiais, estudamos proporções e refinamos cada ambiente.</p>
+    </li>
+    <li class="step reveal" style="--d:3">
+      <span class="step-num">04</span>
+      <h3>Materializar</h3>
+      <p>Consolidamos o projeto em uma documentação organizada, preparada para orientar as próximas etapas de execução.</p>
+    </li>
+  </ol>
+</section>
+
+<!-- ================= DECLARAÇÃO ================= -->
+<section class="dark section-pad-lg" aria-labelledby="sua-titulo">
+  <div class="wrap stack">
+    <h2 id="sua-titulo" class="display display-xl statement-title reveal-lines">Uma arquitetura <em>verdadeiramente sua.</em></h2>
+    <div class="statement-cols">
+      <div>
+        <p class="reveal">O luxo não está apenas nos materiais escolhidos ou na dimensão de um espaço.</p>
+        <p class="reveal">Está na liberdade de viver em um ambiente que corresponde à sua identidade.</p>
+      </div>
+      <div>
+        <p class="reveal">Na ATELIER, acreditamos que a sofisticação mais autêntica nasce do equilíbrio entre beleza, funcionalidade e significado.</p>
+        <p class="reveal">Porque uma residência excepcional não precisa impressionar a todos.</p>
+      </div>
+    </div>
+    <p class="statement-close reveal">Ela precisa fazer sentido para quem vive nela.</p>
+  </div>
+</section>
+
+<!-- ================= FAQ ================= -->
+<section id="duvidas" class="wrap split section-pad" aria-labelledby="faq-titulo">
+  <div class="split-a">
+    <p class="eyebrow reveal"><span>(05)</span><span class="rule"></span><span>Dúvidas</span></p>
+    <h2 id="faq-titulo" class="display reveal-lines">Perguntas <em>frequentes</em></h2>
+  </div>
+  <div class="split-b faq">
+    <details class="faq-item" name="faq" open>
+      <summary>Como funciona o início de um projeto?<span class="faq-plus" aria-hidden="true"></span></summary>
+      <div class="faq-body"><p>Tudo começa com uma conversa para compreender suas necessidades, referências, expectativas e características do imóvel ou terreno.</p></div>
+    </details>
+    <details class="faq-item" name="faq">
+      <summary>Posso contratar apenas o projeto de interiores?<span class="faq-plus" aria-hidden="true"></span></summary>
+      <div class="faq-body"><p>Sim. Os projetos de interiores podem ser desenvolvidos de forma independente, conforme as necessidades de cada espaço.</p></div>
+    </details>
+    <details class="faq-item" name="faq">
+      <summary>Vocês trabalham com construção e reforma?<span class="faq-plus" aria-hidden="true"></span></summary>
+      <div class="faq-body"><p>Nossa proposta contempla projetos para novas residências e transformações de espaços existentes.</p></div>
+    </details>
+    <details class="faq-item" name="faq">
+      <summary>Quanto custa um projeto?<span class="faq-plus" aria-hidden="true"></span></summary>
+      <div class="faq-body"><p>O investimento depende da área, da complexidade e dos serviços envolvidos. Cada proposta é elaborada de maneira personalizada.</p></div>
+    </details>
+    <details class="faq-item" name="faq">
+      <summary>Quanto tempo leva o desenvolvimento?<span class="faq-plus" aria-hidden="true"></span></summary>
+      <div class="faq-body"><p>O prazo varia conforme as características e a complexidade do projeto. O cronograma é definido após a avaliação inicial.</p></div>
+    </details>
+  </div>
+</section>
+
+<!-- ================= CONTATO ================= -->
+<section id="contato" class="sand section-pad-lg" aria-labelledby="contato-titulo">
+  <div class="wrap stack">
+    <p class="eyebrow reveal"><span>(06)</span><span class="rule"></span><span>Contato</span></p>
+    <h2 id="contato-titulo" class="display display-xxl reveal-lines">Seu próximo capítulo começa com um espaço <em>pensado para você.</em></h2>
+
+    <div class="contact">
+      <div class="contact-intro">
+        <p class="reveal">Toda grande arquitetura começa com uma ideia. Uma intenção. Uma conversa.</p>
+        <p class="reveal prose-strong">Conte-nos sobre o que você deseja criar.</p>
+      </div>
+
+      <form class="form reveal" data-form novalidate>
+        <div class="field">
+          <label for="f-nome">Nome</label>
+          <input id="f-nome" name="nome" type="text" autocomplete="name" required placeholder="Como podemos te chamar?">
+        </div>
+        <div class="field">
+          <label for="f-email">E-mail</label>
+          <input id="f-email" name="email" type="email" autocomplete="email" required placeholder="voce@email.com">
+        </div>
+        <div class="field">
+          <span class="label" id="f-tipo-label">Tipo de projeto</span>
+          <div class="chips" role="radiogroup" aria-labelledby="f-tipo-label">
+            <label class="chip"><input type="radio" name="tipo" value="Residencial" checked><span>Residencial</span></label>
+            <label class="chip"><input type="radio" name="tipo" value="Interiores"><span>Interiores</span></label>
+            <label class="chip"><input type="radio" name="tipo" value="Comercial"><span>Comercial</span></label>
+            <label class="chip"><input type="radio" name="tipo" value="Consultoria"><span>Consultoria</span></label>
+          </div>
+        </div>
+        <div class="field">
+          <label for="f-msg">Sobre o projeto</label>
+          <textarea id="f-msg" name="mensagem" rows="3" required placeholder="Terreno, imóvel, referências, momento de vida…"></textarea>
+        </div>
+        <button class="btn btn-accent btn-arrow btn-lg" type="submit">Solicitar uma consulta
+          <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </button>
+        <p class="form-msg" role="status" aria-live="polite" data-form-msg></p>
+      </form>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ================= RODAPÉ ================= -->
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <span class="footer-logo">ATELIER</span>
+        <span class="muted">Arquitetura &amp; Interiores</span>
+        <span class="footer-motto">Forma. Essência. Permanência.</span>
+      </div>
+      <nav class="footer-col" aria-label="Rodapé">
+        <span class="footer-label">Navegação</span>
+        <a class="foot-link" href="#projetos">Projetos</a>
+        <a class="foot-link" href="#abordagem">Abordagem</a>
+        <a class="foot-link" href="#servicos">Serviços</a>
+        <a class="foot-link" href="#contato">Contato</a>
+      </nav>
+      <div class="footer-col">
+        <span class="footer-label">Créditos</span>
+        <span class="soft">Design e desenvolvimento por</span>
+        <a class="credit" href="https://garrastudios.online" target="_blank" rel="noopener">Garra Studios
+          <svg aria-hidden="true" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M9 7h8v8"/></svg>
+        </a>
+        <span class="muted small">Fotografias: <a class="foot-link" href="https://unsplash.com/license" target="_blank" rel="noopener">Unsplash (Licença Unsplash)</a></span>
+      </div>
+    </div>
+
+    <div class="footer-note">
+      <p><span class="badge">Projeto conceito</span>ATELIER é uma marca fictícia e um projeto conceito desenvolvido pela Garra Studios para demonstração de design e desenvolvimento web. Os projetos apresentados são estudos conceituais, não obras executadas para clientes reais.</p>
+      <a class="foot-link small" href="#topo">Voltar ao topo ↑</a>
+    </div>
+  </div>
+  <div class="footer-word" aria-hidden="true">ATELIER</div>
+</footer>
+
+<div class="progress" aria-hidden="true" data-progress></div>
+</body>
+</html>

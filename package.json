@@ -1,0 +1,12 @@
+{
+  "name": "atelier-landing",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ATELIER — landing page conceito de arquitetura e interiores (portfólio Garra Studios)",
+  "scripts": {
+    "check": "node scripts/check.mjs"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.65.0"
+  }
+}
